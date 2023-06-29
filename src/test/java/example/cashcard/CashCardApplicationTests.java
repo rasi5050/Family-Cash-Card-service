@@ -1,5 +1,6 @@
 package example.cashcard;
 
+
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import net.minidev.json.JSONArray;
@@ -19,6 +20,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class CashCardApplicationTests {
+
+
     @Autowired
     TestRestTemplate restTemplate;
 
@@ -30,6 +33,8 @@ class CashCardApplicationTests {
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
 
         DocumentContext documentContext = JsonPath.parse(response.getBody());
+
+
         Number id = documentContext.read("$.id");
         assertThat(id).isEqualTo(99);
 
