@@ -42,4 +42,10 @@ and since test driven methodology is used, all the tests to the requeststests ar
 ## Screenshots
 <img width="1512" alt="Screenshot 2023-06-29 at 11 15 52" src="https://github.com/rasi5050/Family-Cash-Card-service/assets/12760472/7cb5baff-7134-4662-8b9e-9ec8d319178a">
 
-## Thanks!
+
+--
+
+Happy learning!
+Happy to connect on [Linkedin](https://www.linkedin.com/in/rasi5050/)
+
+
